@@ -1,0 +1,30 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin: 15px 0 0 55px ;
+    font-size: 20px;
+}
+
+input, button{
+    height: 25px;
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+textarea{
+    width: 120px;
+    font-size: 20px;
+    margin: 10px 0;
+
+}
+
+button{
+    background-color: blue;
+    width: 100px;
+    padding:  5px;
+    height: fit-content;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}

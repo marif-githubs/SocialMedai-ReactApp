@@ -1,0 +1,52 @@
+.postcard{
+    width: 500px;
+    margin: 13px 0 10px 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border: gray 1px solid;
+    border-radius: 15px;
+    position: relative;
+}
+
+.title{
+    margin: 0;
+    padding: 0;
+}
+
+.desc{
+    margin: 12px 0 15px 0;
+    font-size: large;
+}
+
+.tag{
+    background-color: blue;
+    color: white;
+    border-radius: 25px;
+    display: inline-block;
+    width: fit-content;
+    padding: 5px 9px;
+}
+
+.tagsdiv{
+    display: flex;
+}
+
+.reactiondiv{
+    border-radius: 7px;
+    background: #b3e7ba;
+    margin: 12px 0;
+    padding: 0 20px;
+    color: #005732;
+}
+
+.delete{
+    position: absolute;
+    top: -7px;
+    right: -13px;
+    width: fit-content;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+}
+
