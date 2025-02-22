@@ -1,10 +1,14 @@
 import { CreatePost } from './CreatePost.jsx'
 import { Post } from './Post.jsx'
+import  PostListProvider  from '../store/functions.jsx'
+    
 
-export const  MainPage = () => {
+export const  MainPage = ({tab}) => {
     return (<>
-        <Post></Post>
-        <CreatePost></CreatePost>
-        </>
+            <PostListProvider>
+                {(tab === 'Home') ? <Post/> : <CreatePost/> }
+            </PostListProvider>
+
+    </>
     )
 }

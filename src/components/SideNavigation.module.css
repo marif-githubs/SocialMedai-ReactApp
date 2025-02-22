@@ -1,17 +1,17 @@
 .sidenavigation{
     width: 165px;
-    min-height: 550px;
+    min-height: 600px;
     margin: 0;
-    padding: 15px;
+    padding: 10px;
     background-color: rgb(43, 38, 48);
     display: flex;
     flex-direction: column;
     border-top-left-radius: 10px;
 }
-h2{
+.sidehead{
     text-align: center;
     border-bottom: solid 2px gray;
-    padding-bottom: 24px;   
+    padding-bottom: 6%;   
     color: white;
 }
 .sidenavigation ul{
@@ -34,7 +34,7 @@ h2{
 
 .navbar{
     width: 100%;
-    height: 85px;
+    height: 65px;
     background-color:  rgb(43, 38, 48);
     display: flex;
     border-top-right-radius: 10px;
@@ -45,5 +45,10 @@ h2{
 .container{
     border: gray 1px solid;
     padding: 15px;
-    margin: 10px;
+    margin: 25px;
+    border-radius: 15px;
+}
+
+.message{
+    text-align: center;
 }

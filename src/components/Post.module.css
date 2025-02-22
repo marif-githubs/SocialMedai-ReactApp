@@ -7,6 +7,7 @@
     border: gray 1px solid;
     border-radius: 15px;
     position: relative;
+    background-color: aliceblue;
 }
 
 .title{
@@ -26,6 +27,8 @@
     display: inline-block;
     width: fit-content;
     padding: 5px 9px;
+    margin: 0 3px;
+    font-size: smaller;
 }
 
 .tagsdiv{
